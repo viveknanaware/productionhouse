@@ -123,6 +123,14 @@
               "devServerTarget": "RCPRODUCTION:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/RCPRODUCTION",
+            "netlifyToken": "95r1yUJXLfbIJb5djKQWuisQIMyGrB2XRq1F4QTiXEQ",
+            "siteId": "819b7863-b3a6-4414-9af1-d8dc5583564a"
+          }
         }
       }
     }
