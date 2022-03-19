@@ -21,7 +21,13 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/Images",
+              {
+                "glob": "_redirects",
+                "input": "src",
+                "output": "/"
+              }
             ],
             "styles": [
               "src/styles.css"
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "RCPRODUCTION"
+    }
+  },
+  "defaultProject": "RCPRODUCTION",
+  "cli": {
+    "analytics": false
+  }
 }
